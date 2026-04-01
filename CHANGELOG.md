@@ -1,8 +1,8 @@
-## 3.1.0 2026-04-01 <code at nfastack dot com>
+## 1.2.2 2026-04-01 <code at nfastack dot com>
 
    ### Added
-      - Port to nfrastack/nginx:8.x series
-      - ZT Net 0.7.17
+      - Port changes to support nfrastack/nginx:8.x.x
+      - ZTNet 0.7.17
 
 
 ## 1.2.1 2026-01-12 <code at nfastack dot com>
