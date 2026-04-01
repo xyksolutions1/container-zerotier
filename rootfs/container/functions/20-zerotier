@@ -162,12 +162,12 @@ zerotier_ui_configure() {
                         UI_PROTOCOL \
                         UI_SECRET
 
-    update_template \
-                    /etc/nginx/sites.enabled/"${NGINX_SITE_ENABLED}".conf \
-                                                                        UI_HOSTNAME \
-                                                                        UI_LISTEN_PORT \
-                                                                        UI_PROTOCOL \
-                                                                        UI_SITE_URL
+    #update_template \
+    #                /etc/nginx/sites.enabled/"${NGINX_SITE_ENABLED}".conf \
+    #                                                                    UI_HOSTNAME \
+    #                                                                    UI_LISTEN_PORT \
+    #                                                                    UI_PROTOCOL \
+    #                                                                    UI_SITE_URL
 
     if [ -n "${UI_DB_HOST}" ]; then DB_HOST=${DB_HOST:-${UI_DB_HOST}}; fi
     if [ -n "${UI_DB_NAME}" ]; then DB_NAME=${DB_NAME:-${UI_DB_NAME}}; fi
